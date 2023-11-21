@@ -2,11 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+html {
+  scroll-snap-type: y mandatory;
+}
+.section {
+  scroll-snap-align: start;
+}
+.boxShadow {
+  filter: drop-shadow(0px 1.5px 2px rgb(0 0 0 / 0.3));
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} */
+/*
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -24,4 +35,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
