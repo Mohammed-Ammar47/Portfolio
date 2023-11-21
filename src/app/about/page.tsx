@@ -52,7 +52,7 @@ export default function page() {
           <button className=" w-fit sm:text-lg  rounded-full px-5 py-1 text-center font-medium text-[#0E7A80] dark:text-[#31EBF5] ring-1 ring-black dark:ring-white hover:bg-[#0E7A80] hover:text-black dark:hover:bg-[#31EBF5] dark:hover:text-white ">
             <Link
               className="flex items-center"
-              href="https://google.com"
+              href="https://drive.google.com/file/d/1KhUSJg001HWHzqr9hyXeX1Rqt_UOc17A/view?usp=drive_link"
               rel="noopener noreferrer"
               target="_blank"
             >
