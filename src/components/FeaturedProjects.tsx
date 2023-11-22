@@ -49,6 +49,16 @@ export default function FeaturedProjects() {
       image: "Projects/P-SF.png",
       link: "https://sighted-fresh.vercel.app/",
     },
+    {
+      id: 2,
+      title: "Realtor Knights",
+      usedSkills: ["React.js", "Firebase"],
+      usedTools: ["Vercel", "TailwindCSS"],
+      description:
+        "I built my own realtor website for selling or renting property, fully functional and responsive, users can either add posts for providing the service or contact the owner for purchase, with addition of firebase for database and authentication. ",
+      image: "Projects/P-RK.png",
+      link: "https://realtor-knights.vercel.app/",
+    },
   ];
   return (
     <>

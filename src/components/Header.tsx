@@ -30,7 +30,7 @@ export default function Header() {
           {open ? <IoClose /> : <IoMenu />}
         </div>
         <div
-          className={`bg-[#E6EFF0] dark:bg-[#27282F] right-0  p-3 sm:p-0 absolute  sm:relative sm:flex sm:flex-row sm:gap-3 md:z-auto z-[ w-full md:w-auto md:pl-0  sm:bg-transparent transition-all duration-300 ease-in-out ${
+          className={`bg-[#E6EFF0] dark:bg-[#27282F] right-0  p-3 sm:p-0 absolute z-30 sm:relative sm:flex sm:flex-row sm:gap-3 md:z-auto z-[ w-full md:w-auto md:pl-0  sm:bg-transparent transition-all duration-300 ease-in-out ${
             open ? "top-16  " : "top-[-280px] sm:top-px"
           }`}
         >
