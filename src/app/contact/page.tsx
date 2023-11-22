@@ -13,8 +13,8 @@ export default function page() {
         </h1>
         <p className="text-base sm:text-lg">
           Should you have a project in mind or seek additional information on
-          Frontend web development or Graphic design, please don't hesitate to
-          get in touch with me.
+          Frontend web development, please don&apos;t hesitate to get in touch
+          with me.
         </p>
       </div>
       <ContactForm />

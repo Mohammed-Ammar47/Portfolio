@@ -18,6 +18,7 @@ export default function Header() {
       <img
         src="/ammar-mohammed-high-resolution-logo-transparent.png"
         className="h-8 sm:h-14"
+        alt=""
       />
       <nav className="container flex gap-5 justify-end ">
         <div
@@ -34,8 +35,11 @@ export default function Header() {
           }`}
         >
           <ul className="flex flex-col sm:flex-row items-center gap-2 divide-y-2 sm:divide-y-0 divide-[#0E7A80] dark:divide-[#31EBF5] ">
-            {navItems.map((item) => (
-              <li className="text-lg  px-2 py-1 text-center font-medium">
+            {navItems.map((item, index) => (
+              <li
+                key={index}
+                className="text-lg  px-2 py-1 text-center font-medium"
+              >
                 <Link href={item.link}>{item.label}</Link>
               </li>
             ))}

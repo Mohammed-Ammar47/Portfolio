@@ -6,6 +6,7 @@ export default function PreviewImage({ image }: imgProps) {
       <img
         className="boxShadow bg-gradient-to-tl from-75%  to-100% from-[#0e7a808c] to-[#0E7A80] dark:from-[#31ebf584] dark:to-[#31EBF5] rounded-2xl"
         src={image}
+        alt=""
       />
     </div>
   );

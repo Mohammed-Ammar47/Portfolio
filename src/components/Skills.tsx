@@ -37,8 +37,11 @@ export default function Skills({
     <div className="h-fit px-1.5 py-3 rounded-3xl  bg-[#DAE2E3] dark:bg-[#31323B] boxShadow">
       {displayAll ? (
         <div className="grid grid-cols-3 sm:grid-cols-7 gap-1.5">
-          {skills.map((skill) => (
-            <div className="flex flex-col items-center text-lg sm:text-3xl text-[#0E7A80] dark:text-[#31EBF5] gap-1">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-lg sm:text-3xl text-[#0E7A80] dark:text-[#31EBF5] gap-1"
+            >
               {skill.icon}
               <p className="text-xl text-black dark:text-white">
                 {skill.label}
@@ -50,8 +53,11 @@ export default function Skills({
         <div className="grid grid-cols-3 sm:grid-cols-4 ">
           {skills
             .filter((skill) => usedSkills?.includes(skill.label))
-            .map((skill) => (
-              <div className="flex flex-col items-center text-lg sm:text-2xl text-[#0E7A80] dark:text-[#31EBF5] gap-1">
+            .map((skill, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center text-lg sm:text-2xl text-[#0E7A80] dark:text-[#31EBF5] gap-1"
+              >
                 {skill.icon}
                 <p className="text-lg text-black dark:text-white">
                   {skill.label}
@@ -60,8 +66,11 @@ export default function Skills({
             ))}
           {tools
             .filter((skill) => usedTools?.includes(skill.label))
-            .map((skill) => (
-              <div className="flex flex-col items-center text-lg sm:text-2xl text-[#0E7A80] dark:text-[#31EBF5] gap-1">
+            .map((skill, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center text-lg sm:text-2xl text-[#0E7A80] dark:text-[#31EBF5] gap-1"
+              >
                 {skill.icon}
                 <p className="text-base sm:text-lg text-black dark:text-white">
                   {skill.label}

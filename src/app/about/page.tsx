@@ -20,6 +20,7 @@ export default function page() {
           <img
             className="sm:w-80 sm:h-96 rounded-[3rem] shadow-[-15px_15px_50px_-25px_#0E7A80] dark:shadow-[15px_15px_50px_-25px_#31EBF5]"
             src="Photo.png"
+            alt=""
           />
         </div>
       </div>
@@ -29,11 +30,12 @@ export default function page() {
         </h1>
         <p>
           I am Mohammed Ammar, a mechanical engineer with mechanical production
-          engineering degree. I thrive in problem-solving, teamwork and I'm very
-          serious when it comes to work, and I'm dedicated to improving and
-          learning new skills that brings benefit in my personal and work life.
-          Throughout my school years, I have undergone couple internships in
-          different companies, which has offered me very valuable insights.
+          engineering degree. I thrive in problem-solving, teamwork and I&apos;m
+          very serious when it comes to work, and I&apos;m dedicated to
+          improving and learning new skills that brings benefit in my personal
+          and work life. Throughout my school years, I have undergone couple
+          internships in different companies, which has offered me very valuable
+          insights.
           <br />
           while I was at school, I got into the world of coding and started
           learning html, CSS, and JavaScript stuck with it until I grow my

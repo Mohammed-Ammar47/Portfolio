@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex flex-col  text-start gap-5">
             <h1 className="text-3xl sm:text-6xl text-[#0E7A80] dark:text-[#31EBF5]">
               Hello!
-              <br /> I'm Ammar Mohammed
+              <br /> I&apos;m Ammar Mohammed
             </h1>
             <div className="text-base sm:text-xl gap-1">
               <p className="flex flex-row items-center">
@@ -26,7 +26,7 @@ export default function Home() {
                 <IoRocket className="mx-2 text-[#0E7A80] dark:text-[#31EBF5]" />
               </p>
               <p className="flex flex-row items-center">
-                I'm constantly learning and improving
+                I&apos;m constantly learning and improving
                 <GiUpgrade className="mx-2 text-[#0E7A80] dark:text-[#31EBF5]" />
               </p>
               <p className="flex flex-row items-center">
@@ -42,6 +42,7 @@ export default function Home() {
                 ? "/illustration edit DM.png"
                 : "/illustration edit LM.png"
             }
+            alt=""
           />
         </div>
       </div>
@@ -54,17 +55,18 @@ export default function Home() {
           <img
             className="sm:w-80 sm:h-96 rounded-3xl boxShadow"
             src="Photo.png"
+            alt=""
           />
           <div className="flex flex-col ">
             <p className="p-3 text-xl font-semibold text-[#0E7A80] dark:text-[#31EBF5]">
               Insights into me
             </p>
             <div className="mb-3 h-fit p-3 text-base sm:text-lg rounded-3xl bg-[#DAE2E3] dark:bg-[#31323B] boxShadow">
-              I'm a Frontend Web Developer who is excited to create and working
-              with people. I love building and making progress, and I always try
-              to employ, refine, and expand my skill set can to improve myself
-              and reach the peak of my potential. <br />
-              I'm prepared to offer my skill and help you!
+              I&apos;m a Frontend Web Developer who is excited to create and
+              working with people. I love building and making progress, and I
+              always try to employ, refine, and expand my skill set can to
+              improve myself and reach the peak of my potential. <br />
+              I&apos;m prepared to offer my skill and help you!
             </div>
             <p className="p-3 text-xl font-semibold text-[#0E7A80] dark:text-[#31EBF5]">
               My Skills
