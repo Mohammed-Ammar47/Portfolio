@@ -16,9 +16,9 @@ export default function page() {
               engaged in learning and enhancement, and ever ready to make a
               lasting impact on the world.
             </p>
-          </div>{" "}
+          </div>
           <img
-            className="sm:w-80 sm:h-96 rounded-[3rem] shadow-[-15px_15px_50px_-25px_#0E7A80] dark:shadow-[15px_15px_50px_-25px_#31EBF5]"
+            className="sm:w-80 sm:h-96 rounded-lg boxShadow"
             src="Photo.png"
             alt=""
           />

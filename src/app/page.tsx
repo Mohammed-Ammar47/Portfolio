@@ -3,7 +3,6 @@
 import { useTheme } from "next-themes";
 import { GiMountainRoad, GiUpgrade } from "react-icons/gi";
 import { IoRocket } from "react-icons/io5";
-import Header from "../components/Header";
 import Skills from "../components/Skills";
 import FeaturedProjects from "../components/FeaturedProjects";
 
@@ -53,7 +52,7 @@ export default function Home() {
         </h1>
         <div className="flex flex-col sm:flex-row  gap-5">
           <img
-            className="sm:w-80 sm:h-96 rounded-3xl boxShadow"
+            className="sm:w-80 sm:h-96 rounded-lg boxShadow dark:boxShadowDark"
             src="Photo.png"
             alt=""
           />
@@ -61,7 +60,7 @@ export default function Home() {
             <p className="p-3 text-xl font-semibold text-[#0E7A80] dark:text-[#31EBF5]">
               Insights into me
             </p>
-            <div className="mb-3 h-fit p-3 text-base sm:text-lg rounded-3xl bg-[#DAE2E3] dark:bg-[#31323B] boxShadow">
+            <div className="mb-3 h-fit p-3 text-base sm:text-lg rounded-lg bg-[#DAE2E3] dark:bg-[#31323B] boxShadow dark:boxShadowDark">
               I&apos;m a Frontend Web Developer who is excited to create and
               working with people. I love building and making progress, and I
               always try to employ, refine, and expand my skill set can to

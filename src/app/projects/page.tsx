@@ -32,9 +32,19 @@ export default function ProjectPage() {
       usedSkills: ["React.js", "Firebase"],
       usedTools: ["Vercel", "TailwindCSS"],
       description:
-        "I built my own realtor website for selling or renting property, fully functional and responsive, users can either add posts for providing the service or contact the owner for purchase, with addition of firebase for database and authentication. ",
+        "I built my own realtor website for selling or renting property, fully functional and responsive, users can either add posts for providing the service or contact the owner for purchase, with addition of firebase for database and authentication.",
       image: "Projects/P-RK.png",
       link: "https://realtor-knights.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "The App Book",
+      usedSkills: ["React.js", "TypeScript"],
+      usedTools: ["Vercel", "TailwindCSS"],
+      description:
+        "I built a web application that encompasses multiple small apps i built overtime using typescript ",
+      image: "Projects/P-TAB.png",
+      link: "https://the-app-book.vercel.app/",
     },
   ];
   return (

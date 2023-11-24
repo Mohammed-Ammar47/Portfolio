@@ -34,7 +34,7 @@ export default function Skills({
     { icon: <SiVercel />, label: "Vercel" },
   ];
   return (
-    <div className="h-fit px-1.5 py-3 rounded-3xl  bg-[#DAE2E3] dark:bg-[#31323B] boxShadow">
+    <div className="h-fit px-1.5 py-3 rounded-lg  bg-[#DAE2E3] dark:bg-[#31323B] boxShadow dark:boxShadowDark">
       {displayAll ? (
         <div className="grid grid-cols-3 sm:grid-cols-7 gap-1.5">
           {skills.map((skill, index) => (
